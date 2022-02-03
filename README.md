@@ -8,15 +8,21 @@ Quick Setup Guides
 	•   Eclipse
 
 Overview:
-
-	This test automation project is to verify and validate the borrowing calculator for ANZ. By using selenium and cucumber, test automation script is developed for below scenarios.
+       
+       This test automation project is to verify and validate the borrowing calculator for ANZ. By using selenium and cucumber, test automation script is developed for below scenarios.
   
-		1. Checking the borrow estimation based on given data in the form.
-        ![image](https://user-images.githubusercontent.com/47217366/152317217-94d28c94-d38a-4899-b25f-569b0060441f.png)
+		1. Checking the borrow estimation based on given data in the form.		
+	
+<img height=400 src="https://user-images.githubusercontent.com/47217366/152317340-52aecb13-1280-4602-929c-bd881e27804e.png"/>
+
 		2. Clear the entered data in the form by clicking "Start over" button.
-        ![image](https://user-images.githubusercontent.com/47217366/152317340-52aecb13-1280-4602-929c-bd881e27804e.png)
+		
+<img height=400 src="https://user-images.githubusercontent.com/47217366/152317217-94d28c94-d38a-4899-b25f-569b0060441f.png"/>
+
 		3. If the user entered invalid data / insufficient data, the form should display appropriate message.
-        ![image](https://user-images.githubusercontent.com/47217366/152317371-a5cecb0e-8f63-42e1-a81d-bb8dba58d359.png)
+		
+
+<img height=400 src="https://user-images.githubusercontent.com/47217366/152317371-a5cecb0e-8f63-42e1-a81d-bb8dba58d359.png"/>		
 	
 Steps to Run:
 
