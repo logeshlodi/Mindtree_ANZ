@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Provide all required details",
+        "description": "",
+        "id": "validate-the-anz-borrow-calculator;provide-all-required-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26484870500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is entering data in https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/",
+            "match": {
+              "location": "ANZSteps.user_is_entering_data_in_https_www_anz_com_au_personal_home_loans_calculators_tools_much_borrow()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289811300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click \"Single\" in Application type under Your Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Single\"",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.click_in_Application_type_under_Your_Details(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112665800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select Number of dependants as \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 31
+                }
+              ],
+              "location": "ANZSteps.select_Number_of_dependants_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247074700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click \"Home to live in\" in Property you would like to buy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home to live in\"",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.click_in_Property_you_would_like_to_buy(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165294000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter 80000 under annual income",
+            "match": {
+              "arguments": [
+                {
+                  "val": "80000",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.enter_under_annual_income(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142226200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter 10000 under annual other income",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.enter_under_annual_other_income(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101341100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter 500 under living expenses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.enter_under_living_expenses(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78565300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter 0 under current home loan repayments",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.enter_under_current_home_loan_repayments(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96703400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter 100 under other loan repayments",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.enter_under_other_loan_repayments(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71261300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter 0 under other commitments",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.enter_under_other_commitments(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128895300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter 10000 under total credit card limits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.enter_under_total_credit_card_limits(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3259957500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click Work out how much I could borrow",
+            "match": {
+              "location": "ANZSteps.click_Work_out_how_much_I_could_borrow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33771800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate the borrowing estimate outcomes",
+            "match": {
+              "location": "ANZSteps.validate_the_borrowing_estimate_outcomes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 257923500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click Start over button",
+            "match": {
+              "location": "ANZSteps.click_Start_over_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23395400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate the borrowing estimate outcomes as \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 44
+                }
+              ],
+              "location": "ANZSteps.validate_the_borrowing_estimate_outcomes_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71004500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter 1 under living expenses field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 6
+                }
+              ],
+              "location": "ANZSteps.enter_under_living_expenses_field(Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3245872000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click Work out how much I could borrow if living expenses is 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 61
+                }
+              ],
+              "location": "ANZSteps.click_Work_out_how_much_I_could_borrow_if_living_expenses_is(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2409308100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate the borrowing estimate outcome message",
+            "match": {
+              "location": "ANZSteps.validate_the_borrowing_estimate_outcome_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the ANZ Borrow Calculator",
+    "description": "",
+    "id": "validate-the-anz-borrow-calculator",
+    "keyword": "Feature",
+    "uri": "featureFiles/ANZ_Calculator.feature",
+    "tags": []
+  }
+]

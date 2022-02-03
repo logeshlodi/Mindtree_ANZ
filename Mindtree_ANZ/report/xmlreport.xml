@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.253923">
+    <testcase classname="Validate the ANZ Borrow Calculator" name="Provide all required details" time="37.253923">
+        <system-out><![CDATA[Given User is entering data in https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/.passed
+When Click "Single" in Application type under Your Details..................passed
+And Select Number of dependants as "0"......................................passed
+And Click "Home to live in" in Property you would like to buy...............passed
+And Enter 80000 under annual income.........................................passed
+And Enter 10000 under annual other income...................................passed
+And Enter 500 under living expenses.........................................passed
+And Enter 0 under current home loan repayments..............................passed
+And Enter 100 under other loan repayments...................................passed
+And Enter 0 under other commitments.........................................passed
+And Enter 10000 under total credit card limits..............................passed
+And Click Work out how much I could borrow..................................passed
+Then Validate the borrowing estimate outcomes...............................passed
+When Click Start over button................................................passed
+Then Validate the borrowing estimate outcomes as "0"........................passed
+When Enter 1 under living expenses field....................................passed
+And Click Work out how much I could borrow if living expenses is 1..........passed
+Then Validate the borrowing estimate outcome message........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
